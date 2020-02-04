@@ -1,0 +1,393 @@
+
+
+nav {
+  font-family: 'Montserrat', sans-serif;
+  margin: 29px;
+  color: #3A58B0;
+  word-spacing: 3px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+#navbarSupportedContent {
+    margin: 10px;
+}
+
+#welcomeBanner {
+        margin: 47px;
+  justify-content: flex-start;
+  position: relative;
+  background-image: url(../images/symbols.png);
+  background-size: 95% 100%;
+  background-repeat: no-repeat;
+  height: 460px;
+}
+
+#helloMsg {
+    font-family: 'Montserrat' sans-serif;
+}
+
+#colorScheme {
+  transform: scale(0.8) translateX(-176px) translateY(16px);
+}
+
+#profile {
+  border-radius: 50%;
+  width: 20%;
+  height: 45%;
+  transform: translateX(1000px) translateY(-294px) scale(1.1);
+}
+
+.btn-primary {
+  width: 136px;
+  color: #fff;
+  background-color: #2D42D1;
+  border-color: #2D42D1;
+  transform: translateY(-240px) translateX(1049px);
+}
+
+
+.card {
+  background-color: #0C2577;
+  color: white;
+}
+
+.text-muted {
+  color: #cccfd1!important;
+}
+
+.bold {
+    font-size: 49px;;
+    font-weight: bolder;
+}
+
+.view-more {
+  text-align: right;
+}
+
+#heroGrid {
+  display: grid;
+  min-height: 500px;
+  height: 70vh;
+  width: 100%;
+  grid-template-rows: 75% 25%;
+  grid-template-columns: 75% 25%;
+  grid-template-areas: 
+  "featuredProduct secondaryProduct"
+  "featuredProduct CTA";
+}
+
+#aboutIcons {
+  text-align: center;
+  z-index: 3;
+  height: 100%;
+}
+
+.dependIcon {
+  transform: scale(0.25) translateX(-375px) translateY(330px);
+}
+
+.dependTitle {
+  transform: translateX(-108px) translateY(-106px);
+  font-weight: 700;
+  color: white;
+}
+
+.coopIcon {
+  transform: scale(0.5) translateX(250px) translateY(-730px);
+}
+
+.coopTitle {
+  transform: translateX(128px) translateY(-433px);
+  font-weight: 700;
+  color: white;
+}
+
+.patIcon {
+  transform: scale(0.75) translateX(16px) translateY(-1102px);
+}
+
+.patTitle {
+  transform: translateX(12px) translateY(-844px);
+  font-weight: 700;
+  color: white;
+}
+
+#ageNumber {
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  z-index: 2;
+  transform: translateY(177px) translateX(-859px);
+}
+
+#aboutMe {
+  z-index: 3;
+  margin: 54px;
+  width: 500px;
+}
+
+.aboutInfo {
+  color: white;
+  font-weight: 200;
+  margin-top: 10px;
+}
+
+#featuredProduct {
+  grid-area: featuredProduct;
+  background-image: url("../images/profile\ background\ 4.jpg");
+}
+
+#secondaryProduct {
+  grid-area: secondaryProduct;
+  background-image: url("../images/collage\ of\ design.PNG");
+  z-index: 2;
+}
+
+#frontFade {
+  background-color: rgba(247,201,95,0.4);
+  z-index: 4;
+  width: 100%;
+  height: 100%;
+}
+
+#CTA {
+  grid-area: CTA;
+  font-size: 22px;
+  background-color: #F7C95F;
+  border-bottom: 10px solid #F7C95F;
+  justify-content: space-around;
+  position: relative;
+  cursor: pointer;
+  z-index: 2;
+  transition: all 0.3s;
+}
+
+#CTA:hover {   
+  background-color: #E2B54B;
+  font-size: 23px;
+  border-bottom: 10px solid #E27C7D;
+}
+
+#headline {
+  border-bottom: 10px solid #E27C7D;
+  background-color: rgba(66,64,163, 0.85);
+  position: absolute;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  padding: 25px;
+  width: 100%;
+  max-width: 129%;
+  z-index: 1;
+}
+
+.heroGridArea {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  position: relative;
+}  
+
+#navBar {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 1.5%;
+}
+#navBar h1 {
+  width: 25%;
+  font-weight: 700;
+}
+#navigation {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#navigation p {
+  cursor: pointer;
+  text-decoration: none;
+}
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+  transform: scale(1.5);
+  height: 100px;
+}
+.icons img {
+  margin: 15px;
+  cursor: pointer;
+}
+.highlight {
+  color: #FF6200;
+  font-weight: 700;
+}
+
+.view-text {
+  font-size: larger;
+  font-weight: 300;
+}
+
+.viewButton {
+  color: white;
+  transform: translate(10px, 10px);
+  font-weight: 500;
+}
+
+h1 {
+  color: #E27C7D;
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 41px;
+  font-weight: 500;
+  margin: 0px 0px;
+  color: #F7C95F;
+}
+
+h4 {
+  color: #13578A;
+  font-weight: 200;
+  font-size: 65px;
+  font-family: 'Montserrat' sans-serif;
+}
+
+h5 {
+  color: #393A95;
+  font-weight: 800;
+  font-size: 80px;
+  font-family: 'Montserrat' sans-serif;
+}
+
+h6 {
+  color: white;
+  font-size: 39px;
+  font-weight: 400;
+  margin-top: 8px;
+}
+
+h6 .short-text {
+  display: none;
+}
+
+
+
+@keyframes CTA {
+
+}
+
+@media only screen and (max-width: 1000px){
+  nav {
+    display: none;
+  }
+
+  #icons {
+    margin-left: auto;
+  }
+
+  img {
+    display: flex;
+  }
+
+  #colorScheme {
+    transform: scale(0.6) translateX(-130px);
+  }
+
+  #welcomeBanner {
+    background-image: none;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 35px;
+  }
+
+  h5 {
+    font-size: 50px;
+  }
+
+  .short-text {
+    display: none;
+  }
+
+  .card-columns {
+    margin: 23px;
+  }
+
+  #profile {
+    transform: scale(0.75) translateX(120px);
+  }
+
+  .btn-primary {
+    transform: translateX(120px)
+  }
+
+
+
+  
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  #heroGrid {
+    display: grid;
+  }
+
+  #aboutMe {
+    transform: scale(0.7) translateY(-21px);
+    margin: -15px;
+  }
+
+  h6 {
+    width: 400px;
+  }
+
+  h6 .short-text {
+    display: inline-block;
+  }
+
+  h6 .full-text {
+    display: none;
+  }
+
+  #CTA {
+    display: block;
+    height: 70.2%;
+    transform: translateY(-118px)
+  }
+
+  .viewButton {
+    transform: scale(0.75) translateY(16px);
+  }
+
+  .arrow {
+    transform: scaleX(0.6) scaleY(0.6) translateX(121px) translateY(-120px);
+  }
+
+  #aboutIcons {
+    display: none;
+  }
+
+  #featuredProduct {
+    height: 70%;
+  }
+
+  #secondaryProduct {
+    height: 70%;
+  }
+
+
+
+
+}
