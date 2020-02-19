@@ -35,9 +35,20 @@ body {
 
 #profile {
   border-radius: 50%;
-  width: 20%;
-  height: 45%;
-  transform: translateX(1000px) translateY(-294px) scale(1.1);
+  width: 14%;
+  height: 47%;
+  transform: translateX(1000px) translateY(-294px) scale(1.0);
+}
+
+#profile img {
+  width: 240px;
+  height: 240px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  overflow: hidden;
+  
+  transform: translatey(0px);
+  animation: float 6s ease-in-out infinite;
 }
 
 .btn-primary {
@@ -45,7 +56,7 @@ body {
   color: #fff;
   background-color: #2D42D1;
   border-color: #2D42D1;
-  transform: translateY(-240px) translateX(1049px);
+  transform: translateY(-249px) translateX(1049px);
 }
 
 
@@ -278,8 +289,19 @@ h6 .short-text {
 }
 
 
-
-@keyframes CTA {
+@keyframes float {
+  0% {
+    
+    transform: translatey(0px);
+  }
+  50% {
+    
+    transform: translatey(-20px);
+    }
+  100% {
+    
+    transform: translatey(0px);
+  }
 
 }
 
@@ -364,7 +386,7 @@ h6 .short-text {
   #CTA {
     display: block;
     height: 70.2%;
-    transform: translateY(-118px)
+    transform: translateY(-113px);
   }
 
   .viewButton {
